@@ -11,16 +11,16 @@ public class Main {
         // на экран.
 
         int data = 357;
-        int refill = 2478;
-        int bonus = refill/100;
-        int limit = 1000;
-        double total = refill + data + bonus;
+        int refill = 2568;
+        int bonus = 0;
 
-        if (refill > limit) {
-            System.out.println("Бонус = " + bonus);
-        } else {
-            System.out.println("Бонус = " + 0);
+        int total = refill + data + bonus;
+
+        if (refill > 1000) {
+            bonus = refill/100;
+
         }
+        System.out.println("Бонус = " + bonus);
         System.out.println("Всего на счету = " + total);
     }
 }
