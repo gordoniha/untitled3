@@ -12,7 +12,7 @@ public class Main {
 
         int data = 357;
         int refill = 2478;
-        int bonus = refill * 1/100;
+        int bonus = refill/100;
         int limit = 1000;
         double total = refill + data + bonus;
 
